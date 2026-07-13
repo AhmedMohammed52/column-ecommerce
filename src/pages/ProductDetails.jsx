@@ -1,5 +1,5 @@
 
-export default function ProductsDetails() {
+export default function ProductDetails() {
   return (
     <div>ProductsDetails</div>
   )
