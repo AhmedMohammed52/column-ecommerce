@@ -16,16 +16,9 @@ import ErrorPage from "../pages/ErrorPage";
 import Login from "../pages/Login";
 import Register from "../pages/Register";
 
+import ProtectedRoute from "../routes/ProtectedRoute";
+
 const router = createBrowserRouter([
-  {
-    element: <ProtectedRoute />,
-    children: [
-      { path: "cart", element: <Cart /> },
-      { path: "wishlist", element: <Wishlist /> },
-      { path: "checkout", element: <Checkout /> },
-      { path: "profile", element: <Profile /> },
-    ],
-  },
   {
     path: "/",
     element: <MainLayout />,
@@ -34,6 +27,16 @@ const router = createBrowserRouter([
       { index: true, element: <Home /> },
       { path: "products", element: <Products /> },
       { path: "products/:id", element: <ProductDetails /> },
+
+      {
+        element: <ProtectedRoute />,
+        children: [
+          { path: "cart", element: <Cart /> },
+          { path: "wishlist", element: <Wishlist /> },
+          { path: "checkout", element: <Checkout /> },
+          { path: "profile", element: <Profile /> },
+        ],
+      },
     ],
   },
   {
