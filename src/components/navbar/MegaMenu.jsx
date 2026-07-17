@@ -7,8 +7,9 @@ export default function MegaMenu() {
     <div className="absolute left-1/2 top-full z-50 w-180 -translate-x-1/2 pt-3 animate-fade-in opacity-0 invisible group-hover:opacity-100 group-hover:visible group-hover:-translate-x-1/2">
       <div className="rounded-3xl border border-border bg-popover p-6 shadow-lift">
         <div className="grid grid-cols-4 gap-4">
-          {sportsData.map((sport) => (
+          {sportsData.map((sport, index) => (
             <Link
+              key={index}
               to={sport.path}
               className="overflow-hidden rounded-2xl group/card bg-muted"
             >
