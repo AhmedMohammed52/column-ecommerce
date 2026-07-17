@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-import sportsData from "./sportsData";
+import sportsData from "../../data/sportsData";
 
 export default function MegaMenu() {
   return (

@@ -3,32 +3,32 @@ import {
   footballImage,
   basketballImage,
   trainingImage,
-} from "../../assets";
+} from "../assets";
 
 const sportsData = [
   {
     name: "Running",
     image: runningImage,
     products: "128 product",
-    path: "/product",
+    path: "/products",
   },
   {
     name: "Football",
     image: footballImage,
     products: "150 product",
-    path: "/product",
+    path: "/products",
   },
   {
     name: "Basketball",
     image: basketballImage,
     products: "84 product",
-    path: "/product",
+    path: "/products",
   },
   {
     name: "Training",
     image: trainingImage,
     products: "156 product",
-    path: "/product",
+    path: "/products",
   },
 ];
 

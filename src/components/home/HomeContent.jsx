@@ -1,5 +1,7 @@
 import Features from "./features/Features";
 import Hero from "./hero/Hero";
+import Categories from "./categories/Categories";
+import TrendingProducts from "./trending-products/TrendingProducts";
 
 export default function HomeContent() {
   return (
@@ -7,6 +9,10 @@ export default function HomeContent() {
       <Hero />
 
       <Features />
+
+      <Categories />
+
+      <TrendingProducts />
     </main>
   );
 }

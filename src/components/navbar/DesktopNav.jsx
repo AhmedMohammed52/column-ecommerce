@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 
-import navLinks from "./navbarData";
+import navLinks from "../../data/navbarData";
 
 import MegaMenu from "./MegaMenu";
 

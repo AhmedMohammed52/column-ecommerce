@@ -4,9 +4,9 @@ import Logo from "./Logo";
 
 import { HiXMark } from "react-icons/hi2";
 
-import navLinks from "./navbarData";
+import navLinks from "../../data/navbarData";
 
-import sportsData from "./sportsData";
+import sportsData from "../../data/sportsData";
 
 export default function MobileMenu({ isMenuOpen, setIsMenuOpen }) {
   return (
