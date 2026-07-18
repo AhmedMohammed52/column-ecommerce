@@ -6,7 +6,7 @@ export default function FeatureCard({ feature }) {
       </div>
 
       <div className="min-w-0">
-        <p className="text-sm font-semibold text-foreground">{feature.title}</p>
+        <p className="text-[15px] font-semibold text-foreground">{feature.title}</p>
         <p className="mt-0.5 text-muted-foreground text-xs">
           {feature.description}
         </p>
