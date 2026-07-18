@@ -85,7 +85,7 @@ export default function ProductCard({ product }) {
         </div>
 
         <div className="mt-2 flex items-center gap-2">
-          <span className="text-foreground font-semibold text-base">
+          <span className="text-foreground font-bold text-base">
             ${product.price}
           </span>
 
