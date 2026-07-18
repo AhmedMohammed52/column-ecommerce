@@ -1,7 +1,7 @@
 @import "tailwindcss";
 @source "../src";
-@import "@fontsource/inter/variable.css";
-@import "@fontsource/geist/variable.css";
+@import "@fontsource-variable/inter";
+@import "@fontsource-variable/geist";
 
 @custom-variant dark (&:is(.dark *));
 

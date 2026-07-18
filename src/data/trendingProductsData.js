@@ -1,8 +1,8 @@
 import {
-  firstTrendProduct,
-  secondeTrendProduct,
-  thirdTrendProduct,
-  fourthTrendProduct,
+  sneakerImageOne,
+  sneakerImageTwo,
+  hoodieImage,
+  ballImage,
 } from "../assets";
 
 const trendingProducts = [
@@ -12,7 +12,7 @@ const trendingProducts = [
     brand: "ATHLIX",
     category: "Running",
 
-    image: firstTrendProduct,
+    image: sneakerImageOne,
 
     price: 189,
     oldPrice: 240,
@@ -34,7 +34,7 @@ const trendingProducts = [
     brand: "VANTAGE",
     category: "Training",
 
-    image: secondeTrendProduct,
+    image: sneakerImageTwo,
 
     price: 145,
     oldPrice: null,
@@ -56,7 +56,7 @@ const trendingProducts = [
     brand: "ATHLIX",
     category: "Apparel",
 
-    image: thirdTrendProduct,
+    image: hoodieImage,
 
     price: 98,
     oldPrice: 128,
@@ -78,7 +78,7 @@ const trendingProducts = [
     brand: "NORTHPOINT",
     category: "Basketball",
 
-    image: fourthTrendProduct,
+    image: ballImage,
 
     price: 74,
     oldPrice: null,

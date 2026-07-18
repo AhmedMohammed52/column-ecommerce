@@ -1,7 +1,9 @@
 import Features from "./features/Features";
 import Hero from "./hero/Hero";
 import Categories from "./categories/Categories";
-import TrendingProducts from "./trending-products/TrendingProducts";
+import TrendingProducts from "./trendingProducts/TrendingProducts";
+import PromoBanner from "./promoBanner/PromoBanner";
+import NewArrivals from "./newArrivals/NewArrivals";
 
 export default function HomeContent() {
   return (
@@ -13,6 +15,10 @@ export default function HomeContent() {
       <Categories />
 
       <TrendingProducts />
+
+      <PromoBanner />
+
+      <NewArrivals />
     </main>
   );
 }

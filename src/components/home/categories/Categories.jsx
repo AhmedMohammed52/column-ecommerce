@@ -4,7 +4,7 @@ import CategoryCard from "./CategoryCard";
 
 export default function Categories() {
   return (
-    <div className=" container-athlix py-16">
+    <section className=" container-athlix py-16">
       <SectionHeader
         eyebrow="Shop by sport"
         title="Find your discipline"
@@ -16,6 +16,6 @@ export default function Categories() {
           <CategoryCard data={sport} key={sport.name} />
         ))}
       </div>
-    </div>
+    </section>
   );
 }
