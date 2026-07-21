@@ -5,19 +5,19 @@ const promoProducts = [
     id: 1,
     image: sneakerImageOne,
     alt: "Running Shoe",
-    path: "/products",
+    path: "/shop",
   },
   {
     id: 2,
     image: hoodieImage,
     alt: "Hoodie",
-    path: "/products",
+    path: "/shop",
   },
   {
     id: 3,
     image: watchImage,
     alt: "Smart Watch",
-    path: "/products",
+    path: "/shop",
   },
 ];
 

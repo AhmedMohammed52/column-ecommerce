@@ -21,6 +21,8 @@ const trendingProducts = [
     rating: 4.8,
     reviews: 1284,
 
+    createdAt: "2026-07-20",
+
     badge: {
       text: "Bestseller",
       color: "text-royal-foreground",
@@ -42,6 +44,8 @@ const trendingProducts = [
 
     rating: 4.6,
     reviews: 512,
+
+    createdAt: "2026-07-27",
 
     badge: {
       text: "New",
@@ -65,6 +69,8 @@ const trendingProducts = [
     rating: 4.9,
     reviews: 2043,
 
+    createdAt: "2026-08-15",
+
     badge: {
       text: "Sale",
       color: "text-destructive-foreground",
@@ -86,6 +92,8 @@ const trendingProducts = [
 
     rating: 4.7,
     reviews: 318,
+
+    createdAt: "2026-04-02",
 
     badge: null,
   },

@@ -8,7 +8,7 @@ export default function TrendingProducts() {
         eyebrow="Trending Now"
         title="What athletes are wearing"
         linkText="Shop Trending"
-        buttonLink="/products"
+        buttonLink="/shop"
         products={trendingProducts}
       />
     </section>

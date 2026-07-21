@@ -24,7 +24,7 @@ export default function HeroContent() {
 
       <div className="mt-8 flex flex-wrap gap-3">
         <Link
-          to="/product"
+          to="/shop"
           className="inline-flex h-12 items-center gap-2 rounded-full bg-background px-6 text-sm font-semibold text-foreground transition hover:bg-background/90 group"
         >
           Shop the collection
@@ -32,7 +32,7 @@ export default function HeroContent() {
         </Link>
 
         <Link
-          to="/product"
+          to="/sale"
           className="btn-shine inline-flex h-12 items-center gap-2 rounded-full border border-background/25 px-6 text-sm font-semibold text-background transition group"
         >
           Explore flash sale

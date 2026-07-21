@@ -11,7 +11,7 @@ const bottomNavData = [
   },
   {
     name: "Shop",
-    path: "/products",
+    path: "/shop",
     icon: <RiStore2Line className="size-5" />,
   },
   {

@@ -8,7 +8,7 @@ export default function NewArrivals() {
         eyebrow="Just dropped"
         title="New arrivals"
         linkText="See all"
-        buttonLink="/products"
+        buttonLink="/newArrivals"
         products={newArrivalsData}
       />
     </section>

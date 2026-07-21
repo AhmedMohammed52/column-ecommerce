@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { GoArrowRight } from "react-icons/go";
 
-export default function SubHeader({ eyebrow, title, linkText }) {
+export default function SubHeader({ eyebrow, title, linkText, buttonLink }) {
   return (
     <div className="flex items-end justify-between gap-6">
       <div>
@@ -16,7 +16,7 @@ export default function SubHeader({ eyebrow, title, linkText }) {
 
       <Link
         className="hidden sm:inline-flex items-center gap-2 text-sm font-semibold text-foreground story-link"
-        to="/products"
+        to={buttonLink}
       >
         {linkText}
 

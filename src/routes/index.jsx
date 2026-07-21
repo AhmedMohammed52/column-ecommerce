@@ -4,7 +4,7 @@ import MainLayout from "../layouts/MainLayout";
 import AuthLayout from "../layouts/AuthLayout";
 
 import Home from "../pages/Home";
-import Products from "../pages/Products";
+import Shop from "../pages/Shop";
 import ProductDetails from "../pages/ProductDetails";
 import Cart from "../pages/Cart";
 import Wishlist from "../pages/Wishlist";
@@ -25,7 +25,7 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
     children: [
       { index: true, element: <Home /> },
-      { path: "products", element: <Products /> },
+      { path: "shop", element: <Shop /> },
       { path: "products/:id", element: <ProductDetails /> },
 
       {

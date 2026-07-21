@@ -1,6 +1,6 @@
 const navLinks = [
   {
-    path: "/products",
+    path: "/shop",
     name: "Shop",
     categories: ["Running", "Football", "Basketball", "Trainning"],
   },

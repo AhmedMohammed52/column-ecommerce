@@ -10,7 +10,7 @@ export default function ProductCard({ product }) {
     <div className="group relative">
       <Link
         className="bg-muted rounded-2xl block overflow-hidden"
-        to="/products"
+        to="/shop"
       >
         <div className="relative aspect-square overflow-hidden ">
           <img
@@ -67,7 +67,7 @@ export default function ProductCard({ product }) {
             </p>
 
             <Link
-              to="/products"
+              to="/shop"
               className="mt-1 text-sm truncate block font-semibold story-link text-foreground"
             >
               {product.name}
