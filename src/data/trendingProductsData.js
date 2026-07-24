@@ -14,6 +14,11 @@ const trendingProducts = [
 
     image: sneakerImageOne,
 
+    otherImages: [
+      { image: sneakerImageOne, name: "Aero Runner Pro" },
+      { image: sneakerImageTwo, name: "Snekers" },
+      { image: hoodieImage, name: "Snekers" },
+    ],
     price: 189,
     oldPrice: 240,
     discount: -21,

@@ -15,6 +15,9 @@ import ErrorPage from "../pages/ErrorPage";
 
 import Login from "../pages/Login";
 import Register from "../pages/Register";
+import NewArrivals from "../pages/NewArrivals";
+import Sale from "../pages/Sale";
+import Jornal from "../pages/Jornal";
 
 // import ProtectedRoute from "../routes/ProtectedRoute";
 
@@ -31,7 +34,10 @@ const router = createBrowserRouter([
       { path: "wishlist", element: <Wishlist /> },
       { path: "checkout", element: <Checkout /> },
       { path: "profile", element: <Profile /> },
-      { path: "/shop/:productId", element: <ProductDetails />}
+      { path: "/shop/:id", element: <ProductDetails /> },
+      { path: "/new", element: <NewArrivals /> },
+      { path: "/sale", element: <Sale /> },
+      { path: "/jornal", element: <Jornal /> },
 
       // {
       //   element: <ProtectedRoute />,

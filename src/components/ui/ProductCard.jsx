@@ -8,7 +8,10 @@ import { LuShoppingBag } from "react-icons/lu";
 export default function ProductCard({ product }) {
   return (
     <div className="group relative">
-      <Link className="bg-muted rounded-2xl block overflow-hidden" to="/shop">
+      <Link
+        className="bg-muted rounded-2xl block overflow-hidden"
+        to={`/shop/${product.id}`}
+      >
         <div className="relative aspect-square overflow-hidden ">
           <img
             src={product.image}

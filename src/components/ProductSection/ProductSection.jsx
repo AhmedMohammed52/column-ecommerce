@@ -1,5 +1,5 @@
 import SectionHeader from "../ui/SectionHeader";
-import ProductGrid from "./ProductGrid";
+import ProductGrid from "../ui/ProductGrid";
 
 export default function ProductSection({
   eyebrow,
